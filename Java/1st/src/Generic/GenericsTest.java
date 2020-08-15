@@ -2,6 +2,8 @@ package Generic;
 
 import clases.Persona;
 
+import java.util.List;
+
 public class GenericsTest {
 
     public static void main(String[] args) {
@@ -15,5 +17,13 @@ public class GenericsTest {
 
        // objetoint.setObjeto("ddd"); // no acepta cambio de tipo cuando ya se hace
 
+
+
+    }
+
+    public static <T> void printListsContennt (List<T> collection){
+        for (T element: collection) {
+            System.out.println("The inside is:" + element);
+        }
     }
 }

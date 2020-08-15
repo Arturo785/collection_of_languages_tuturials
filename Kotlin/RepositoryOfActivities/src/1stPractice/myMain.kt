@@ -1,8 +1,11 @@
 package `1stPractice`
 
+import classesAndInheretance.ExampleWithInternal
+
 fun main() {
     val hello1 = "Hello"
     val hello2 = "Hello"
+
 
     println("Referencial comparision ${hello1 === hello2}")
     println("Content comparision ${hello1 == hello2}")
