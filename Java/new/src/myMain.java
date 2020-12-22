@@ -1,6 +1,6 @@
 public class myMain {
 
-    public static void main(String[] args) {
+/*    public static void main(String[] args) {
 
         DoubleLinkedList<Integer> doubleLinkedList = new DoubleLinkedList<>();
 
@@ -13,5 +13,5 @@ public class myMain {
         doubleLinkedList.pushFront(4);
         doubleLinkedList.print();
 
-    }
+    }*/
 }

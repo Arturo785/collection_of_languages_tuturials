@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="estatico_dinamico:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>estatico_dinamico</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="estatico_dinamico-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="estatico_dinamico:war exploded" />
+    </root>
+  </artifact>
+</component>

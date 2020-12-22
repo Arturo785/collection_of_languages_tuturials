@@ -1,0 +1,35 @@
+<!--
+  Created by IntelliJ IDEA.
+  User: Arturo
+  Date: 11/12/2020
+  Time: 8:16
+  To change this template use File | Settings | File Templates.
+-->
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+    <jsp:directive.page contentType="text/html" pageEncoding="utf-8"/>
+
+    <!--Uso de declaraciones-->
+    <jsp:declaration>
+        private int contadorVisitas = 1;
+    </jsp:declaration>
+
+    <html>
+        <head><title>Title</title></head>
+        <body>
+
+            <h1>Ejemplo de un documento</h1>
+            <jsp:text> Saludos desde documento JSPX</jsp:text>
+            <br/>
+            <jsp:expression> 2*3 </jsp:expression>
+            <br/>
+            <!--Ejemplo de scriplet-->
+            <jsp:scriptlet>
+                String name = request.getContextPath();
+            </jsp:scriptlet>
+            Nombre de la app: <jsp:expression> name </jsp:expression>
+            <br/>
+            Contador visitas: <jsp:expression> this.contadorVisitas++ </jsp:expression>
+
+        </body>
+    </html>
+</jsp:root>

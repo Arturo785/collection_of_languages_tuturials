@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="clients_control:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>clients_control</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="clients_control-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="clients_control:war exploded" />
+    </root>
+  </artifact>
+</component>
